@@ -1,16 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        printHeader();
-        printMessage("My name is: ");
-        printHeader();
-        printMessage("Anthony");
+        System.out.println("hello, world");
     }
 
-    public static void printMessage(String message) {
+    public void printMessage(String message) {
         System.out.println(message);
-    }
-
-    private static void printHeader() {
-        System.out.println("**************************");
     }
 }
